@@ -1,4 +1,4 @@
-
+Q:Calculate the sum of diagonal elements of a numpy array.
 
 import numpy as np
 matrix=np.array([[3,4,5],
