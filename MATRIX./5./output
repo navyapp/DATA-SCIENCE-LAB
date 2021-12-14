@@ -1,1 +1,23 @@
+OUTPUT
+
+Elements of first matrix is:
+ [[1 2]
+ [3 4]]
+Elements of second matrix is :
+ [[4 5]
+ [6 7]]
+Addition of two matrix is
+[[ 5  7]
+ [ 9 11]]
+Subtraction of two matrix is
+[[-3 -3]
+ [-3 -3]]
+multiplication of two matrix is
+[[ 4 10]
+ [18 28]]
+Division of two matrix is
+[[0.25       0.4       ]
+ [0.5        0.57142857]]
+
+Process finished with exit code 0
 
