@@ -1,0 +1,19 @@
+import numpy as np
+matrix1=np.array([[1,2],
+                  [3,4]])
+matrix2=np.array([[4,5],
+                  [6,7]])
+print("Elements of first matrix is:\n",matrix1)
+print("Elements of second matrix is :\n",matrix2)
+
+print("Addition of two matrix is")
+print(np.add(matrix1,matrix2))
+
+print("Subtraction of two matrix is")
+print(np.subtract(matrix1,matrix2))
+
+print("multiplication of two matrix is")
+print(np.multiply(matrix1,matrix2))
+
+print("Division of two matrix is")
+print(np.divide(matrix1,matrix2))
