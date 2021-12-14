@@ -1,104 +1,10 @@
+Q: Get the maximum and minimam value of a given matrix
+
 import numpy as np
 matr=np.array([[4,5],[6,7]])
 value=matr.max()
 print("maximam value of given matrix:" ,value)
 minimam=matr.min()
 print("minimam value of given matrix:",minimam)
-
-maximam value of given matrix: 7
-minimam value of given matrix: 4
-
-Process finished with exit code 0
-
-
-mport numpy as np
-
-matrix = np.arange(1,10).reshape((3, 3))
-
-print("original matrix:\n" , matrix)
-
-print("no of rows and columns of given matrix:\n" ,matrix.shape)
-
-
-original matrix:
- [[1 2 3]
- [4 5 6]
- [7 8 9]]
-no of rows and columns of given matrix:
- (3, 3)
-
-Process finished with exit code 0
-
-
-import numpy as np
-matr=np.array([[2,3],
-               [3,5],
-               [6,7]])
-total=np.sum(matr)
-print("sum of  values \n",total)
-
-sum of  values 
- 26
-
-Process finished with exit code 0
-
-import numpy as np
-matrix=np.array([[3,4,5],
-                [4,5,6],
-                [5,6,7]])
-print("original matrix:\n",matrix)
-trace=np.trace(matrix)
-print("sum of diagonal elements is :\n",trace)
-
-original matrix:
- [[3 4 5]
- [4 5 6]
- [5 6 7]]
-sum of diagonal elements is :
- 15
-
-Process finished with exit code 0
-
-
-import numpy as np
-matrix1=np.array([[1,2],
-                  [3,4]])
-matrix2=np.array([[4,5],
-                  [6,7]])
-print("Elements of first matrix is:\n",matrix1)
-print("Elements of second matrix is :\n",matrix2)
-
-print("Addition of two matrix is")
-print(np.add(matrix1,matrix2))
-
-print("Subtraction of two matrix is")
-print(np.subtract(matrix1,matrix2))
-
-print("multiplication of two matrix is")
-print(np.multiply(matrix1,matrix2))
-
-print("Division of two matrix is")
-print(np.divide(matrix1,matrix2))
-
-Elements of first matrix is:
- [[1 2]
- [3 4]]
-Elements of second matrix is :
- [[4 5]
- [6 7]]
-Addition of two matrix is
-[[ 5  7]
- [ 9 11]]
-Subtraction of two matrix is
-[[-3 -3]
- [-3 -3]]
-multiplication of two matrix is
-[[ 4 10]
- [18 28]]
-Division of two matrix is
-[[0.25       0.4       ]
- [0.5        0.57142857]]
-
-Process finished with exit code 0
 
 
